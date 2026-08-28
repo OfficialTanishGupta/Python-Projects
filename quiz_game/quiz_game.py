@@ -37,7 +37,49 @@ if a == "power supply unit":
 else:
     print("Incorrect!")
 
+a = input("5. What does ROM stand for? ").lower().strip()
+if a == "read only memory":
+    print("Correct!")
+    s += 1
+else:
+    print("Incorrect!")
+
+a = input("6. What does SSD stand for? ").lower().strip()
+if a == "solid state drive":
+    print("Correct!")
+    s += 1
+else:
+    print("Incorrect!")
+
+a = input("7. What does HDD stand for? ").lower().strip()
+if a == "hard disk drive":
+    print("Correct!")
+    s += 1
+else:
+    print("Incorrect!")
+
+a = input("8. What does IP stand for in IP address? ").lower().strip()
+if a == "internet protocol":
+    print("Correct!")
+    s += 1
+else:
+    print("Incorrect!")
+
+a = input("9. What does URL stand for? ").lower().strip()
+if a == "uniform resource locator":
+    print("Correct!")
+    s += 1
+else:
+    print("Incorrect!")
+
+a = input("10. What does USB stand for? ").lower().strip()
+if a == "universal serial bus":
+    print("Correct!")
+    s += 1
+else:
+    print("Incorrect!")
+
 print("\n--- Game Over ---")
-print(f"Score: {s} / 4")
-pct = (s / 4) * 100
+print(f"Score: {s} / 10")
+pct = (s / 10) * 100
 print(f"Percentage: {pct}%")

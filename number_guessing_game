@@ -1,0 +1,23 @@
+import random
+
+secret_val = random.randint(1, 20)
+result = "playing"
+attempts = 0
+
+print("--- Welcome to the Number Guessing Game! ---")
+print("I am thinking of a number between 1 and 20.")
+
+while result == "playing":
+    user_val = int(input("Enter your guess: "))
+    attempts += 1
+    
+    if user_val == secret_val:
+        result = "won"
+    elif user_val > secret_val:
+        print("Too high! Try a smaller number.")
+    else:
+        print("Too low! Try a bigger number.")
+
+if result == "won":
+    print(f"\nCongratulations! You guessed the right number: {secret_val}")
+    print(f"It took you {attempts} attempts.")

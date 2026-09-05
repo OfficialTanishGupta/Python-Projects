@@ -58,12 +58,12 @@ def play_game():
         board[position] = current_player
         if check_winner(board, current_player):
             print_board(board)
-            print(f"🎉 Congratulations! Player {current_player} wins!")
+            print(f"Congratulations! Player {current_player} wins!")
             break
 
         if check_draw(board):
             print_board(board)
-            print("🤝 It's a draw!")
+            print("It's a draw!")
             break
 
         current_player = "O" if current_player == "X" else "X"

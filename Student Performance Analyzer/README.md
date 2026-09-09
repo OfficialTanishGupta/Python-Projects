@@ -1,6 +1,6 @@
 # NumPy Student Performance Analyzer
 
-A beginner-level data analysis project built with **Python and NumPy** to practice numerical computing, multidimensional arrays, data filtering, statistical analysis, random data generation, and basic data relationships.
+A data analysis project built with **Python and NumPy** to practice numerical computing, multidimensional arrays, data filtering, statistical analysis, random data generation, and linear algebra.
 
 This project is being developed step-by-step while learning NumPy and building a foundation for data analysis and machine learning.
 
@@ -47,15 +47,29 @@ This project is being developed step-by-step while learning NumPy and building a
 
 ### Phase 6: ML-Style Data Analysis
 
-- Finding top-performing students
-- Finding lowest-performing students
+- Finding top and lowest-performing students
 - Calculating overall performance
-- Identifying the best and worst-performing subjects
+- Identifying best and worst-performing subjects
 - Finding students who failed
 - Filtering students based on average performance
 - Calculating subject-wise standard deviation
 - Exploring relationships between subjects
 - Using correlation with NumPy
+
+### Phase 7: Linear Algebra
+
+- Working with vectors
+- Vector arithmetic
+- Dot product
+- Vector magnitude and norms
+- Creating and manipulating matrices
+- Matrix addition and subtraction
+- Element-wise multiplication
+- Matrix multiplication
+- Matrix transpose
+- Determinants
+- Matrix inverse
+- Eigenvalues and eigenvectors
 
 ## Dataset
 
@@ -93,26 +107,28 @@ The project currently covers:
 - Array creation and manipulation
 - Indexing and slicing
 - Boolean masking
-- Aggregation
 - Statistical analysis
 - Random data generation
-- Sorting and ranking
+- Ranking and filtering
 - Correlation analysis
-- Basic ML-style data analysis
+- Vector operations
+- Matrix operations
+- Basic linear algebra
 
 ## Future Phases
 
-The next stages will focus on more advanced NumPy concepts:
+The next stages will focus on applying NumPy concepts to machine learning:
 
-- Matrix operations
-- Linear algebra
-- Vectorized computations
+- Vectorization and broadcasting
+- Data normalization
 - Distance and similarity calculations
+- ML mathematical operations
 - Linear Regression from scratch
-- Machine Learning algorithms using NumPy
+- Gradient descent
+- Machine learning algorithms using NumPy
 
 ## Project Status
 
-**Completed:** Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6
+**Completed:** Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6, Phase 7
 
-**Next:** Phase 7 - Advanced NumPy and Machine Learning
+**Next:** Phase 8 - Linear Algebra Project
